@@ -46,7 +46,7 @@ $posts = [
 $posts2 = array_keys($posts);
 
 for ($i = 0; $i < count($posts); $i++) { 
-    echo var_dump($posts2) . '<br>';
+    echo $posts2[$i] . '<br>';
     for ($j=0; $j < count($posts[$posts2[$i]]); $j++) { 
         echo $posts[$posts2[$i]] [$j] ['title'];
         echo '<br>';
